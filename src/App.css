@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+/* ------------------------------------- */
+
+/* .Observer {
+  border: 1px solid darkgray;
+  padding: 3px;
+  margin: 0px;
+  width: 50%;
+  height: 70%;
+  text-align: left;
+  list-style: none;
+  background-color: red;
+} */
+
+.data-lists {
+
+  text-align: left;
+  width: 96%;
+  left: 2px;
+}
+
+.data-monitor {
+  border: 1% solid #ccc;
+  padding: 0px;
+  margin: 2%;
+  width: 96%;
+  text-align: left;
+  list-style: none;
+  background-color: white;
+}
+
+.data-monitor p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.data-reportBox {
+  border: 3% solid black;
+  background-color: lightgoldenrodyellow;
+  color: #fff;
+  text-align: left;
+  width: 95%;
+}
+
+button {
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
